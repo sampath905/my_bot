@@ -19,9 +19,20 @@
         <color rgba="0 0 0 1"/>
     </material>
 
+    <material name="red">
+        <color rgba="1 0 0 1"/>
+    </material>
+    <material name="brown">
+        <color rgba="0.6 0.2 0.2 1"/>
+    </material>
+    <material name="green">
+        <color rgba="0 1 0 1"/>
+    </material>
+
     <!-- Base link -->
     <link name="base_link">
     </link>
+
 
     <!-- Chassis link -->
 
