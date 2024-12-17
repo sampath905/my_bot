@@ -3,6 +3,8 @@
 Features:
 - Navigation
 - Ball Tracking
+  
+After cloning my repository follow the below procedures:
 
 # Navigation:
  Following are the cmds:
