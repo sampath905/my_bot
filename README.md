@@ -5,7 +5,7 @@ Features:
 - Ball Tracking
   
 After cloning my repository follow the below procedures:
-
+Note: Gazebo(default) 
 # Navigation:
  Following are the cmds:
 - ros2 launch my_bot gazebo_rviz_launch.py
