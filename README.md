@@ -20,11 +20,14 @@ Note:Changes in Rviz to perform Navigation
   - add RobotModel change discription topic to robot description
   - add 2 maps change their topics and color scheme accordingly
   - from top left panels/add newpanel/add navigation 2(to perform waypoint navigation)
+  - to add slam tool box do the same like navigation 2(after making you can serialize and save the for future planning )
     
 To run the robot manually for Mapping :
 - ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -r /cmd_vel:=/diff_cont/cmd_vel_unstamped
 
 # Ball Tracking -
+To perform ball tracking clone the ball tracking repository from my git
+
 - ros2 launch fire_bot launch_sim.launch.py world:=./src/my_bot/worlds/house1.world
 - ros2 run ball_tracker detect_ball_3d
 - ros2 launch my_bot ball_tracker.launch.py sim_mode:=true
