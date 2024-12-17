@@ -11,7 +11,7 @@ After cloning my repository follow the below procedures:
 - ros2 launch my_bot gazebo_rviz_launch.py
 - ros2 launch my_bot slam_nav_launch.py
 - ros2 launch my_bot online_async_launch.py
-- 
+  
 Note:Changes in Rviz to perform Navigation
   - set Global options fixed frame to map after running online_async_launch.py
   - add camera change topic to camera/imageraw
