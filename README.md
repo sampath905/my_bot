@@ -20,8 +20,8 @@ Note:Changes in Rviz to perform Navigation
   - add RobotModel change discription topic to robot description
   - add 2 maps change their topics and color scheme accordingly
   - from top left panels/add newpanel/add navigation 2(to perform waypoint navigation)
-  - 
-To run manually for Mapping :
+    
+To run the robot manually for Mapping :
 - ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -r /cmd_vel:=/diff_cont/cmd_vel_unstamped
 
 # Ball Tracking -
