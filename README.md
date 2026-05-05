@@ -28,7 +28,7 @@ To run the robot manually for Mapping :
 # Ball Tracking -
 To perform ball tracking clone the ball tracking repository from my git
 
-- ros2 launch fire_bot launch_sim.launch.py world:=./src/my_bot/worlds/house1.world
+- ros2 launch my_bot launch_sim.launch.py world:=./src/my_bot/worlds/house1.world
 - ros2 run ball_tracker detect_ball_3d
 - ros2 launch my_bot ball_tracker.launch.py sim_mode:=true
 
