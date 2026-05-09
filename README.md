@@ -19,8 +19,8 @@ Note:Changes in Rviz to perform Navigation
   - add TF
   - add RobotModel change discription topic to robot description
   - add 2 maps change their topics and color scheme accordingly
-  - from top left panels/add newpanel/add navigation 2(to perform waypoint navigation)
-  - to add slam tool box do the same like navigation 2(after making you can serialize and save the for future planning )
+  - from top left panels/add newpanel/add navigation (to perform waypoint navigation)
+  - to add slam tool box do the same like navigation (after making you can serialize and save for the future planning )
     
 To run the robot manually for Mapping :
 - ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -r /cmd_vel:=/diff_cont/cmd_vel_unstamped
